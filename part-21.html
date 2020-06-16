@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is learning Es6</title>
+	</head>
+	<body>
+	<h3>Practicing Es6 Discuss about "Discuss about Anonymous function" ;</h3>
+	<di>
+		<h2> Type of function </h2>
+		<ul>
+			<li>Simple Function </li>
+			<li>Parametrized  Function </li>
+			<li>Reset  Parameter  </li>
+			<li>Returning  Function </li>
+			<li>Anonymous  Function </li>
+			<li>Arrow Function </li>
+			<li>The Function Constructor </li>
+		</ul>
+	
+	</div>
+	
+	
+		<script>
+				const myFunc = function (){ // Simple Anonymous Function 
+					return "Hello";
+				}
+				console.log(" Result of Anonumous Function = " + myFunc());
+				
+				const myFuncTwo = function (x){ // Anonymous Function with passing parameter 
+					return x;
+				}
+				console.log("Result of Function Two = " + myFuncTwo("Hello Anonymous Function"));
+				
+				const myFuncThree = function (...x){ // Anonymous Function with rest parameter 
+					return x;
+				}
+				console.log("Result of Function Three = " + myFuncThree(1,2,3,4,5,6,7,8,));
+				
+				const myFuncFour = function (){ // Anonymous Function with declare call  
+					return "Hello";
+				}
+				const myFuncFour = function (){ // Anonymous Function with declare call  
+					return "Hello Again";
+				}
+				console.log(" Result of function four = " + myFuncFour());
+				
+				
+				
+		</script>
+	</body>
+</html>

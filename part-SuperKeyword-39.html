@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is learning Es6</title>
+	</head>
+	<body>
+	<h3>Practicing Es6 Discuss about "Discussing about Super keyword "</h3>
+	
+	
+	
+
+	
+		<script>
+		
+			class parent{
+			
+				hello1(){
+				
+					console.log("This is hello one form parent Class");
+				}
+				
+				hello2(){
+					console.log(" This is hello two from Parent Class");
+				}
+				
+			}
+			
+			class child extends parent{
+				demo(){
+				
+					super.hello1();
+					super.hello2();
+				}
+			
+			}
+			
+			var obj = new child;
+			
+				obj.demo();
+		</script>
+	</body>
+</html>

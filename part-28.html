@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is learning Es6</title>
+	</head>
+	<body>
+	<h3>Practicing Es6 Discuss about "Discuss about Map Delete, clear, get, has"</h3>
+	
+	<ul>
+		<th> Map Method </th>
+		<li>get(key)</li>
+		<li>clear ()</li>
+		<li>has(value)</li>
+		
+	</ul>
+	
+
+	
+		<script>
+		var myMap = new Map();
+		
+		myMap.set("key1","Bangladesh");
+		myMap.set("key2","Nepal");
+		myMap.set("key3","India");
+		myMap.set("key4","Thiland");
+		myMap.set("key4","Buttan");
+		myMap.set("key5","Maynmar");
+		myMap.set("key6","Singapure");
+		myMap.set("key7","Maylisia");
+		
+		console.log(" This is get method = " + myMap.get("key6")); // This is Map get Method
+		
+		myMap.delete("key1");// This is Map delete Method 
+		myMap.delete("key2");// This is Map delete Method  
+		
+		
+		for(let myValues of myMap.values()){
+		
+			console.log(myValues);
+			}
+			
+			if(myMap.has("key5")){
+				console.log("It's availabel");
+			}
+			else {
+				console.log(" It's not available" );
+			}
+	
+		</script>
+	</body>
+</html>

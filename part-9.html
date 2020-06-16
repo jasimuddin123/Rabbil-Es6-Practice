@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is learning Es6</title>
+	</head>
+	<body>
+	<h3>Practicing Es6 Discuss about "Reassign Variable  Difference among Var, Let, const" ;</h3>
+	
+	
+		<script>
+		var name = "jasim Uddin";
+		
+		 name = "Sonabondu";// reassign Possible 
+		console.log(name);
+		
+		
+		let color = "red";
+		color = "green"; // Reassign Possible
+		consosle.log(color);
+		
+		const country = "KSA";
+		
+			country = "UAE";
+			console.log(country);// Const Variable reassign not possible
+			
+			// Bellow I have shown Redeclare 
+			
+			var name = "jasim Uddin";
+			var name = "Sonabondu";// Redeclare  Possible 
+			console.log(name);
+		
+		
+		let color = "red";
+		let color = "green"; // Redeclare not  Possible
+		consosle.log(color);
+		
+			const country = "KSA";
+			const country = "UAE";
+			console.log(country);// Const Variable reassign not possible
+
+		</script>
+	</body>
+</html>

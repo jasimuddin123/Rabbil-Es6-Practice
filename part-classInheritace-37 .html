@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is learning Es6</title>
+	</head>
+	<body>
+	<h3>Practicing Es6 Discuss about "Discussing about Power of Child Class "</h3>
+	
+	
+	
+
+	
+		<script>
+		
+			class parent{
+			
+			hello1(params){
+			
+				console.log("Hello 1 function");
+				
+			}
+			
+			hello2(params){
+			
+				console.log("Hello 2 function");
+				
+			}
+			
+			}
+			
+			class child extends parent{
+				
+			
+			}
+	var obj = new child;
+	obj.hello1();
+	obj.hello2();
+	
+	
+	class parent2{
+		hello3(){
+			console.log("This is hello form Parent Class");
+		}
+		
+		hello2(){
+		
+			console.log("This is function 2 from parent Class");
+		}
+	}
+	
+	class child2 extends parent2{
+		hello4(){
+		
+			console.log("This is modified by Child Class"); // Over writing by Child Class but not possible overWriting by Parent 
+		}
+	}
+	
+	var obj = new child2;
+		obj.hello4();
+		</script>
+	</body>
+</html>

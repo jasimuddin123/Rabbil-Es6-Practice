@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is learning Es6</title>
+	</head>
+	<body>
+	<h3>Practicing Es6 Discuss about "Discuss about Arrow function" ;</h3>
+	<di>
+		<h2> Type of function </h2>
+		<ul>
+			<li>Simple Function </li>
+			<li>Parametrized  Function </li>
+			<li>Reset  Parameter  </li>
+			<li>Returning  Function </li>
+			<li>Anonymous  Function </li>
+			<li>Arrow Function </li>
+			<li>The Function Constructor </li>
+		</ul>
+	
+	</div>
+	
+	
+		<script>
+				const myArrow = () => { // Simple Arrow Function 
+					console.log(" My First Arrow function");
+				}
+				myArrow();
+				
+				const myArrowTwo = (x)=> { // Parameter Passing in Arrow Function 
+					console.log(x);
+				
+				}
+				myArrowTwo("This Function with prameter Passing");
+				
+				const myArrowThree = (...x) =>{ // Arrow function with rest Function 
+					console.log(x);
+				}
+				myArrowThree(1,2,3,4,5,6,7,8,9);
+				
+				const myArrowFour = () => {
+				
+					return "Hello World";
+				}
+				console.log("Result of Arrow Function Four = " + myArrowFour());
+		</script>
+	</body>
+</html>

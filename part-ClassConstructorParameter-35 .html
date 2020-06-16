@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is learning Es6</title>
+	</head>
+	<body>
+	<h3>Practicing Es6 Discuss about "Discussing about Class parametrized  Constructor "</h3>
+	
+	
+	
+
+	
+		<script>
+		
+		class MyClass{
+		
+			constructor(a,b){
+				console.log(a + b);
+			}
+		
+		}
+		
+		new MyClass(20, 30);
+	
+	
+		class MyClassTwo{
+			
+			constructor(x,y){
+			
+				this.firstNum =x
+				this.secondNum =y
+			}
+			
+			add(){
+			
+				var result = this.firstNum + this.secondNum;
+				
+				console.log(result);
+				
+			}
+			}
+			var obj = new MyClassTwo(10,20);
+			
+			obj.add();
+			
+			class MyClassThree{
+				
+				constructor (jasim,milon){
+					this.firstValue =jasim
+					this.secondValue = milon
+				
+				}
+				
+				sum(){
+					var total = this.firstValue + this.secondValue;
+					console.log(total);
+				
+				}
+			
+			}
+		var obj3 = new MyClassThree(50,100);
+		
+		obj3.sum();
+		
+	
+		</script>
+	</body>
+</html>
